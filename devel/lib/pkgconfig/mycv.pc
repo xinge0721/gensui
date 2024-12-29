@@ -1,0 +1,8 @@
+prefix=/mnt/gensui/devel
+
+Name: mycv
+Description: Description of mycv
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -131,6 +131,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/mnt/gensui/build/gtest/cmake_install.cmake")
+  include("/mnt/gensui/build/QRcode/cmake_install.cmake")
 
 endif()
 

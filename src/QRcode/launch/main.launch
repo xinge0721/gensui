@@ -1,0 +1,19 @@
+<launch>
+    <!-- 启动 roscore -->
+    <group ns="roscore">
+        <node name="roscore" pkg="roslaunch" type="roscore" required="true"/>
+    </group>
+
+    <!-- 启动 shoot.cpp -->
+    <node name="shoot_node" pkg="mycv" type="shoot.py" output="screen">
+        <!-- 如果需要传递参数，可以在这里指定 -->
+        <!-- <param name="some_param" value="some_value"/> -->
+    </node>
+
+    <!-- 启动 discern.py -->
+    <node name="discern_node" pkg="mycv" type="discern.py" output="screen">
+        <!-- 如果需要传递参数，可以在这里指定 -->
+        <!-- <param name="some_param" value="some_value"/> -->
+    </node>
+
+</launch>

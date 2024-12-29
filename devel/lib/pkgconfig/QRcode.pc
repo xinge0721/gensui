@@ -1,0 +1,8 @@
+prefix=/mnt/gensui/devel
+
+Name: QRcode
+Description: Description of QRcode
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

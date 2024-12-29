@@ -1,2 +1,2 @@
-
+QRcode
 -DCATKIN_DEVEL_PREFIX=/mnt/gensui/devel -DCMAKE_INSTALL_PREFIX=/mnt/gensui/install -G Unix Makefiles
